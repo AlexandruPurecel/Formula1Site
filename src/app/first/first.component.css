@@ -1,0 +1,139 @@
+.example-label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .example-button-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .mat-divider {
+    margin: 1rem 0;
+  }
+  
+  .example-form-field {
+    display: block;
+    margin-bottom: 1rem;
+  }
+  
+  .mat-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .mat-list-item {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  h2 {
+    margin-top: 1rem;
+  }
+  
+  button[mat-raised-button] {
+    background-color: #0077ff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-right: 0.5rem;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button[mat-raised-button]:hover,
+  button[mat-raised-button]:focus {
+    background-color: #0066cc;
+  }
+  
+  button[mat-raised-button][color="primary"] {
+    background-color: #0077ff;
+  }
+  
+  button[mat-raised-button][color="primary"]:hover,
+  button[mat-raised-button][color="primary"]:focus {
+    background-color: #0066cc;
+  }
+  
+  button[mat-raised-button][color="accent"] {
+    background-color: #33ccff;
+  }
+  
+  button[mat-raised-button][color="accent"]:hover,
+  button[mat-raised-button][color="accent"]:focus {
+    background-color: #29b6f6;
+  }
+  
+  button[mat-raised-button][color="warn"] {
+    background-color: #ff4444;
+  }
+  
+  button[mat-raised-button][color="warn"]:hover,
+  button[mat-raised-button][color="warn"]:focus {
+    background-color: #ff3333;
+  }
+  
+  button[mat-raised-button][disabled] {
+    background-color: #cccccc;
+    color: #666666;
+    cursor: default;
+  }
+  
+  a[mat-raised-button] {
+    background-color: #0077ff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-right: 0.5rem;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  a[mat-raised-button]:hover,
+  a[mat-raised-button]:focus {
+    background-color: #0066cc;
+  }
+  
+  a[mat-raised-button][color="primary"] {
+    background-color: #0077ff;
+  }
+  
+  a[mat-raised-sbutton][color="primary"]:hover,
+  a[mat-raised-button][color="primary"]:focus {
+    background-color: #0066cc;
+  }
+  
+  a[mat-raised-button][color="accent"] {
+    background-color: #33ccff;
+  }
+  
+  a[mat-raised-button][color="accent"]:hover,
+  a[mat-raised-button][color="accent"]:focus {
+    background-color: #29b6f6;
+  }
+  
+  h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  
